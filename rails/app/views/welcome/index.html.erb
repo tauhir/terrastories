@@ -38,7 +38,7 @@
   <div class="logo">
     <%= image_tag "rubyforgood.png" %>
     <% if @theme %>
-      <% @theme.sponsor_logos.each do |logo| %>
+      <% @theme.logos.each do |logo| %>
         <%= image_tag logo %>
       <% end %>
     <% end %>
